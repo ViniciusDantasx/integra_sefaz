@@ -1,0 +1,16 @@
+/* Importação das diretivas do Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definições de base para o projeto */
+@layer base {
+  body {
+    /* * Aqui aplicamos os estilos que definimos no tailwind.config.js:
+     * font-sans -> Inter
+     * bg-sefaz-background-light -> #f8f9fa
+     * text-slate-800 -> Cor de texto escura padrão
+    */
+    @apply font-sans bg-sefaz-background-light text-slate-800;
+  }
+}
